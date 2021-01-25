@@ -4390,6 +4390,8 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: .5rem
 }
 
@@ -4418,7 +4420,7 @@ fieldset:disabled .btn {
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    padding-right: 35px;
+    padding-right: 0;
     margin-bottom: 0;
     list-style: none
 }
