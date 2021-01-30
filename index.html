@@ -38,37 +38,49 @@
   <link href="css/carousel.rtl.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark row container-fluid">
+<body class="bg-dark row container-fluid"
+  style="padding-left: 0px; padding-right: 0px;margin-left: 0px;margin-right: 0px;padding-top: 15px; padding-bottom: 0px;">
   <header>
+
     <div class="row">
-      <div class="row" style="background-color: #141414;">
-        <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: right; height: 15vh; padding-right: 5vw;">
-          <img alt="Logo" src="assets/img/logo.png" style="height: 15vh; width: auto;">
-        </div>
 
-        <!-- social network -->
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-        <!-- end social media -->
-
+      <div class="col-8" style="text-align: right; height: 15vh; padding-right: 5vw;">
+        <img alt="Logo" src="assets/img/logo.png" style="height: 15vh; width: auto;">
       </div>
 
+      <div class="col-4">
+        <div class="row">
+          <!-- multi language  -->
+          <div class="col-12">
+            <nav class="navbar navbar-dark bg-dark " dir="ltr"">
+<ul class=" navbar-nav">
+              <li class="nav-item dropdown"> <a class="nav-link active" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-globe"></i> </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">فارسی</a></li>
+                  <li> </li>
+                  <li><a class="dropdown-item" href="#">العربیه</a></li>
+                  <li> </li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+              </li>
+              </ul>
+
+            </nav>
+          </div>
+          <!-- end multi language  -->
 
 
-      <div class="row" style="background-color: #141414;">
-        <div class="col-sm-12" style="
-            border-top: solid 2px #c5a048;
-            height: 15px;
-            background-repeat: repeat-x;
-          "></div>
+        </div>
       </div>
+
     </div>
+
+    <div class="row" style="background-color: #141414;">
+      <div class="col-12" style="border-top: solid 2px #c5a048; height: 15px; width: 100%;
+          "></div>
+    </div>
+
 
 
   </header>
@@ -146,6 +158,7 @@
                 <path
                   d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
               </svg></button>
+
           </form>
         </div>
 
@@ -153,157 +166,140 @@
 
 
       </div>
+
     </nav>
+    <hr class="dropdown-divider">
     <!-- endnavbar -->
 
     <!-- carousel slider -->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
 
-        <div class="carousel-item active">
-          <img src="assets/img/slide.svg" width="100%" height="100%" alt="">
-          <div class="container">
-            <div class="carousel-caption text-center">
-              <h3>حاج قاسم سلیمانی </h3>
-              <p><a class="btn btn-lg btn-outline-success btn-outline-success-back-carousel" href="#"
-                  role="button">ادامه
-                  مطلب</a></p>
-            </div>
+
+    <div class="carousel-inner" style="padding-top:0;">
+
+      <div class="carousel-item active">
+        <img src="assets/img/head-pic.png" width="100%" height="100%" alt="">
+        <div class="container">
+          <div class="carousel-caption text-end" style="padding-bottom: 0;">
+            <h3 style="color: #141414;">همه چیز درباره جشنواره ذوالفقار </h3>
+            <p><a class="btn btn-lg btn-outline-success btn-outline-success-back-carousel" href="#" role="button">ادامه
+                مطلب</a></p>
           </div>
         </div>
-
-        <div class="carousel-item ">
-          <img src="assets/img/slide.svg" width="100%" height="100%" alt="">
-          <div class="container">
-            <div class="carousel-caption text-center">
-              <h3>حاج قاسم سلیمانی </h3>
-              <p><a class="btn btn-lg btn-outline-success btn-outline-success-back-carousel" href="#"
-                  role="button">ادامه
-                  مطلب</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item ">
-          <img src="assets/img/slide.svg" width="100%" height="100%" alt="">
-          <div class="container">
-            <div class="carousel-caption text-center">
-              <h3>حاج قاسم سلیمانی </h3>
-              <p><a class="btn btn-lg btn-outline-success btn-outline-success-back-carousel" href="#"
-                  role="button">ادامه
-                  مطلب</a></p>
-            </div>
-          </div>
-        </div>
-
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">قبلی</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">بعدی</span>
-      </a>
+
     </div>
+
+
     <!-- end carousel -->
 
 
     <!-- content -->
-    <div class="" style="background-color:#fff;">
-      <div class="container" style="padding-top: 35px; padding-bottom: 35px;">
-        <hr class="featurette-divider">
+<div class="" style="background-color: #fff;">
+<div class="container marketing" style="padding-top: 30px;">
+    <hr class="">
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+<img src="assets/img/140 in 140.png" class="bd-placeholder-img rounded-circle" alt="">
+      <h2>جایزه صلح</h2>
+      <p>در این بخش نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید. در این بخش
+        نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید.</p>
+      <p><a class="btn btn-outline-viewdetail" href="#" role="button">بیشتر بخوانید »</a>
+      </p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+ 
+<img src="assets/img/140 in 140.png" class="bd-placeholder-img rounded-circle" alt="">
+      <h2>جایزه ادبیات</h2>
+      <p> // در این بخش نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید. در این
+        بخش نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید. </p>
+      <p><a class="btn btn-outline-viewdetail" href="#" role="button">بیشتر بخوانید »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+     <img src="assets/img/140 in 140.png" class="bd-placeholder-img rounded-circle" alt="">
 
-        <div class="row featurette">
-          <div class="col-md-7" style="padding-right: 0px;">
-            <a href="#">
-              <h2 class="featurette-heading"> ۱ سردار شهید حاج قاسم سلیمانی زنده است. </h2>
-            </a>
-            <p class="lead">قاسم سلیمانی (۲۰ اسفند ۱۳۳۵ – ۱۳ دی ۱۳۹۸) فرمانده نیروی قدس سپاه پاسداران انقلاب اسلامی
-              (IRGC) بود. او در طول جنگ ایران و عراق و پس از آن تا سال ۱۳۷۶، فرمانده لشکر ۴۱ ثارالله کرمان بود. سپس، از
-              سال ۱۳۷۶ تا زمان مرگ به‌عنوان فرمانده در نیروی قدس سپاه پاسداران انقلاب اسلامی فعالیت می‌کرد. وی در ۱۳ دی
-              ۱۳۹۸ در هنگام خروج از فرودگاه بین‌المللی بغداد در طی عملیاتی بنام عملیات آذرخش کبود به دستور دونالد ترامپ،
-              رئیس‌جمهور ایالات متحده آمریکا، مورد حمله موشک پهپاد نظامی ارتش ایالات متحده قرار گرفته به قتل رسید.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="assets/img/pic 500 in 500.svg" alt="">
+      <h2>جایزه سینما</h2>
+      <p>// در این بخش نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید. در این
+        بخش نمایندگان برنده شدن جایزه صلح ذوالفقار مورد داوری قرار میگیرند و برنده اعلام خواهد گردید.</p>
+      <p><a class="btn btn-outline-viewdetail" href="#" role="button">بیشتر بخوانید »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
 
-          </div>
-        </div>
 
-        <hr class="featurette-divider">
+  <!-- START THE FEATURETTES -->
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2" style="padding-left: 0px;">
-            <a href="#">
-              <h2 class="featurette-heading">۲ سردار شهید حاج قاسم سلیمانی زنده است. </h2>
-            </a>
-            <p class="lead">قاسم سلیمانی (۲۰ اسفند ۱۳۳۵ – ۱۳ دی ۱۳۹۸) فرمانده نیروی قدس سپاه پاسداران انقلاب اسلامی
-              (IRGC) بود. او در طول جنگ ایران و عراق و پس از آن تا سال ۱۳۷۶، فرمانده لشکر ۴۱ ثارالله کرمان بود. سپس، از
-              سال ۱۳۷۶ تا زمان مرگ به‌عنوان فرمانده در نیروی قدس سپاه پاسداران انقلاب اسلامی فعالیت می‌کرد. وی در ۱۳ دی
-              ۱۳۹۸ در هنگام خروج از فرودگاه بین‌المللی بغداد در طی عملیاتی بنام عملیات آذرخش کبود به دستور دونالد ترامپ،
-              رئیس‌جمهور ایالات متحده آمریکا، مورد حمله موشک پهپاد نظامی ارتش ایالات متحده قرار گرفته به قتل رسید.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img src="assets/img/pic 500 in 500.svg" alt="">
+  <hr class="featurette-divider">
 
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7" style="padding-right: 0px;">
-            <a href="#">
-              <h2 class="featurette-heading">۳ سردار شهید حاج قاسم سلیمانی زنده است. </h2>
-            </a>
-            <p class="lead">قاسم سلیمانی (۲۰ اسفند ۱۳۳۵ – ۱۳ دی ۱۳۹۸) فرمانده نیروی قدس سپاه پاسداران انقلاب اسلامی
-              (IRGC) بود. او در طول جنگ ایران و عراق و پس از آن تا سال ۱۳۷۶، فرمانده لشکر ۴۱ ثارالله کرمان بود. سپس، از
-              سال ۱۳۷۶ تا زمان مرگ به‌عنوان فرمانده در نیروی قدس سپاه پاسداران انقلاب اسلامی فعالیت می‌کرد. وی در ۱۳ دی
-              ۱۳۹۸ در هنگام خروج از فرودگاه بین‌المللی بغداد در طی عملیاتی بنام عملیات آذرخش کبود به دستور دونالد ترامپ،
-              رئیس‌جمهور ایالات متحده آمریکا، مورد حمله موشک پهپاد نظامی ارتش ایالات متحده قرار گرفته به قتل رسید.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="assets/img/pic 500 in 500.svg" alt="">
-
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-      </div>
+  <div class="row featurette">
+    <div class="col-md-7">
+    <a href="" class="">
+      <h2 class="featurette-heading">آیین رو نمایی از پوستر یکمین دوره جشنواره بین المللی ذوالفقار 
+      </h2></a>
+      <p class="lead"> در شهریور ماه ۱۳۹۹ آیین رو نمایی از پوستر یکمین دوره جشنواره بین المللی ذوالفقار در اهواز برقرار
+        شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی، دکتر
+        سودانی و خانواده معزز شهید شرکت داشتند. </p>
+      <p dir="ltr"><a class="btn btn-outline-viewdetail" href="#" role="button" dir="rtl" >بیشتر بخوانید »</a>
+      </p>
     </div>
+    <div class="col-md-5">
+ 
+      <img src="assets/img/pic 500 in 500.svg"
+        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="" width="500" height="500">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+     <a href="" class="">
+       <h2 class="featurette-heading">افتتاحیه جشنواره بین المللی ذوالفقار ۱۴۰۰</h2>
+     </a>
+     <p class="lead"> در شهریور ماه ۱۳۹۹ آیین رو نمایی از پوستر یکمین دوره جشنواره بین المللی ذوالفقار در اهواز برقرار
+       شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی، دکتر
+       سودانی و خانواده معزز شهید شرکت داشتند. </p>
+       <p dir="ltr"><a class="btn btn-outline-viewdetail" href="#" role="button" dir="rtl">بیشتر بخوانید »</a>
+       </p>
+    </div>
+    <div class="col-md-5 order-md-1">
+   
+ <img src="assets/img/pic 500 in 500.svg"
+   class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <a href="" class="">
+        <h2 class="featurette-heading">افتتاحیه جشنواره بین المللی ذوالفقار ۱۴۰۰</h2>
+      </a>
+      <p class="lead"> در شهریور ماه ۱۳۹۹ آیین رو نمایی از پوستر یکمین دوره جشنواره بین المللی ذوالفقار در اهواز برقرار
+        شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی، دکتر
+        سودانی و خانواده معزز شهید شرکت داشتند. </p>
+      <p dir="ltr"><a class="btn btn-outline-viewdetail" href="#" role="button" dir="rtl">بیشتر بخوانید »</a>
+      </p>
+    </div>
+    <div class="col-md-5">
+<img src="assets/img/pic 500 in 500.svg"
+  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+</div>
+</div>
 
     <!-- end content -->
 
 
 
-    <!-- signature basirat -->
-
-    <div class=" ">
-      <div class="">
-        <div class="col-sm-12" style="
-            background-color: #c5a048;
-            font-family: byekan;
-            color: black;
-            text-align: center;
-            padding: 10px;
-           
-          ">
-          <p dir="rtl">
-            تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
-            باشد.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- end signature basirat -->
 
 
   </main>
@@ -341,7 +337,7 @@
             <li><a href="#">تماس با ما</a></li>
           </ul>
         </div>
-        <div class="col-sm-12 col-md-6 ">
+        <div class="col-sm-12 col-md-3">
           <h6>نشانی</h6>
           <p class="text-justify"> جمهوری اسلامی ایران - خوزستان - اهواز - کوی انقلاب، خیابان لشکر، روبروی بانک ملی،
             موسسه طلوع نور بصیرت <br>
@@ -352,9 +348,46 @@
               info@zulfiqarfestival.ir
             </a>
         </div>
+
+        <!-- social network -->
+        <div class="col-sm-12 col-md-3 ">
+          <h6>ذوالفقار در شبکه های اجتماعی</h6>
+
+          <div class="row" style="padding-top: 35px;">
+            <div class="col-12 align-content-center">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- end social media -->
+
+        </div>
       </div>
       <hr>
     </div>
+
+    <!-- signature basirat -->
+
+
+
+    <div class="col-sm-12" style="background-color: #c5a048;color: black;text-align: center; padding: 10px;">
+      <p dir="rtl" style="padding: 0;margin: 0;">
+        تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
+        باشد.
+      </p>
+    </div>
+
+
+
+    <!-- end signature basirat -->
+
+
   </footer> <!--  -->
   <!-- </footer> -->
   <script src="js/bootstrap.bundle.min.js"></script>

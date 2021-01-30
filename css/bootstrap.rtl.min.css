@@ -3561,9 +3561,20 @@ fieldset:disabled .btn {
 
 .btn-outline-success {
     color: #f08521;
-    border-color: #f08521    
+    border-color: #f08521
 }
-.btn-outline-success-back-carousel{
+
+.btn-outline-viewdetail {
+    color: #fff;
+    background-color: #c5a048;
+    border-color: #c5a048
+}
+.btn-outline-viewdetail:hover{
+    color: #fff;
+    background-color: #f08521;
+}
+
+.btn-outline-success-back-carousel {
     color: #fff;
     background-color: #f08521
 }
@@ -6871,7 +6882,8 @@ fieldset:disabled .btn {
     right: 0;
     z-index: 1030
 }
-.top-margin{
+
+.top-margin {
     margin-top: 0%;
 }
 

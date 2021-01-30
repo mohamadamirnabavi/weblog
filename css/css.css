@@ -68,7 +68,7 @@
     margin-left: 6px;
     margin-right: 0;
     border-radius: 100%;
-    background-color: #33353d
+ 
 }
 
 .copyright-text {
@@ -93,7 +93,7 @@
 }
 
 .social-icons {
-    padding-left: 0;
+    /* padding-left: 0; */
     margin-bottom: 0;
     list-style: none
 }
@@ -104,7 +104,7 @@
 }
 
 .social-icons li.title {
-    margin-right: 15px;
+    /* margin-right: 15px; */
     text-transform: uppercase;
     color: #96a2b2;
     font-weight: 700;
@@ -120,7 +120,7 @@
     width: 44px;
     height: 44px;
     text-align: center;
-    margin-right: 8px;
+    /* margin-right: 8px; */
     border-radius: 100%;
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
@@ -160,7 +160,7 @@
 @media (max-width:767px) {
     .social-icons li.title {
         display: block;
-        margin-right: 0;
+        /* margin-right: 0; */
         font-weight: 600
     }
 }
