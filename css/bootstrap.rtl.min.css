@@ -4164,7 +4164,7 @@ fieldset:disabled .btn {
 .dropdown-menu-dark .dropdown-item:focus,
 .dropdown-menu-dark .dropdown-item:hover {
     color: #fff;
-    background-color: rgba(255, 255, 255, .15)
+    background-color:#c5a048
 }
 
 .dropdown-menu-dark .dropdown-item.active,
