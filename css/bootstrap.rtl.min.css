@@ -178,6 +178,12 @@ ol,
 ul {
     padding-right: 2rem
 }
+.ul-padding-right-left{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
 
 dl,
 ol,
@@ -243,8 +249,11 @@ a {
     text-decoration: none
 }
 
-a:hover {
+.gold:hover {
     color: #c5a048
+}
+.gray:hover{
+    color: #444444;
 }
 
 a:not([href]):not([class]),
@@ -308,6 +317,10 @@ figure {
 img,
 svg {
     vertical-align: middle
+}
+img:hover{
+
+    opacity: 80%;
 }
 
 table {
