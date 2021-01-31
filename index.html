@@ -29,7 +29,7 @@
 <body class="bg-dark">
 
 
-  <header>
+  <header style="padding-bottom: 0;">
 
     <div class="row">
 
@@ -54,8 +54,7 @@
     </div>
 
     <div class="row" style="background-color: #141414;">
-      <div class="col-12" style="border-top: solid 1px #c5a048; height: 15px; width: 100%;
-          "></div>
+      <div class="col-12" style="border-top: solid 1px #c5a048; height: 15px; width: 100%;"></div>
     </div>
 
 
@@ -63,24 +62,28 @@
   </header>
 
 
-  <div class="row">
-    <div class="col-9">
+  <div class="row" style="padding-top: 0;">
+    <div class="col-md-9 col-sm-12">
 
 
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <div class="container-fluid">
 
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="navbar-collapse collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">خانه</a>
               </li>
 
-
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   جوایز
                 </a>
@@ -96,8 +99,6 @@
                   <li><a class="dropdown-item" href="#">جایزه سینما</a></li>
                 </ul>
               </li>
-
-
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
@@ -115,7 +116,6 @@
                   </li>
                   <li><a class="dropdown-item" href="">ویژه نامه</a></li>
                 </ul>
-
               </li>
 
               <li class="nav-item">
@@ -129,25 +129,25 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#">تماس با ما</a>
               </li>
+
             </ul>
 
-
-
           </div>
-
         </div>
       </nav>
+
       <!-- endnavbar -->
 
     </div>
 
-    <div class="col-3">
+    <div class="col-md-3 col-sm-12 ">
       <!-- multi language  -->
       <div class="col-12">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg" dir="ltr"">
         <ul class=" navbar-nav">
-          <li class="nav-item dropdown"> <a class="nav-link active" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-globe"></i> </a>
+          <li class="nav-item dropdown"> <a class="nav-link " href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/lang.png" width="35px" height="auto"
+                alt=""> </a>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">فارسی</a></li>
               <li> </li>
@@ -165,8 +165,8 @@
 
 
   </div>
-  <div class="row">
-    <div class="col-12" style="border-top: solid 1px #444444; height: 15px; width: 100%;
+  <div style="padding-bottom: 0;">
+    <div style="border-top: solid 1px #c5a048; height: 15px; width: 100%;
           ">
     </div>
   </div>
@@ -209,7 +209,11 @@
 
     <div class="" style="background-color: #f4f4f2;">
       <div class="container marketing" style="padding-top: 30px;">
-        <hr class="">
+
+        <!-- line -->
+        <div class="row">
+          <div class="col-12" style="border-top: solid 1px #c5a048; height: 15px; width: 100%;"></div>
+        </div>
 
         <div class="row">
 
@@ -217,7 +221,9 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="backgrund-content ul-padding-right-left">
+
                   <img src="assets/img/140 in 140.png" class="bd-placeholder-img rounded-circle" alt="">
+
                   <a href="" class="gold">
                     <h2>جایزه صلح</h2>
                   </a>
@@ -256,8 +262,8 @@
               <div class="col-md-12">
 
                 <ul class="backgrund-content ul-padding-right-left">
-                  <a href="" class="gray"> <img src="assets/img/140 in 140.png" class=" rounded-circle" alt="">
-                  </a>
+                  <img src="assets/img/140 in 140.png" class=" rounded-circle" alt="">
+
                   <a href="" class="gold">
                     <h2>جایزه سینما</h2>
                   </a>
@@ -273,10 +279,12 @@
 
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        <div class="row" style="padding-bottom: 10px;">
+          <div class="col-12" style="border-top: solid 1px #c5a048; height: 15px; width: 100%;"></div>
+        </div>
 
-        <div class="row featurette">
-          <div class="col-md-5">
+        <div class="row featurette backgrund-content">
+          <div class="col-md-5  ">
             <a href="" class="gold">
               <h2 class="featurette-heading">آیین رو نمایی از پوستر یکمین دوره جشنواره بین المللی ذوالفقار
               </h2>
@@ -286,19 +294,18 @@
               شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی،
               دکتر
               سودانی و خانواده معزز شهید شرکت داشتند. </p>
-            
+
           </div>
           <div class="col-md-7">
 
-         <a href="" class="gray"> <img src="assets/img/pic 770in 500.png"
-             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt=""></a>
+            <img src="assets/img/pic 770in 500.png" class="img-fluid mx-auto" alt="">
 
           </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
+        <div class="row" style="padding-top: 20px;">
+          <div class="col-12" style="border-top: solid 1px #c5a048; height: 20px; width: 100%;"></div>
+        </div>
+        <div class="row featurette backgrund-content">
           <div class="col-md-5 order-md-2">
             <a href="" class="gold">
               <h2 class="featurette-heading">افتتاحیه جشنواره بین المللی ذوالفقار ۱۴۰۰</h2>
@@ -308,20 +315,22 @@
               شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی،
               دکتر
               سودانی و خانواده معزز شهید شرکت داشتند. </p>
-         
+
           </div>
           <div class="col-md-7 order-md-1">
 
-          <a href="" class="gray"> 
-            <img src="assets/img/pic 770in 500.png"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt=""></a>
+            <a href="" class="gray ">
+              <img src="assets/img/pic 770in 500.png"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt=""></a>
 
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <div class="row" style="padding-top: 20px;">
+          <div class="col-12" style="border-top: solid 1px #c5a048; height: 20px; width: 100%;"></div>
+        </div>
 
-        <div class="row featurette">
+        <div class="row featurette backgrund-content">
           <div class="col-md-5">
             <a href="" class="gold">
               <h2 class="featurette-heading">افتتاحیه جشنواره بین المللی ذوالفقار ۱۴۰۰</h2>
@@ -331,17 +340,17 @@
               شد و به صورت همزمان و به صورت ویدئو کنفرانس با تهران و کرمان برگزار گردید. در این مراسم نماینده ولی فقی،
               دکتر
               سودانی و خانواده معزز شهید شرکت داشتند. </p>
-            <p dir="ltr"><a class="btn btn-outline-viewdetail" href="#" role="button" dir="rtl">بیشتر بخوانید »</a>
-            </p>
+
           </div>
           <div class="col-md-7">
-          <a href="" class="gray"> <img src="assets/img/pic 770in 500.png"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  alt=""></a>
+            <img src="assets/img/pic 770in 500.png" class=" featurette-image img-fluid mx-auto" alt="">
 
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <div class="row" style="padding-top: 20px;">
+          <div class="col-12" style="border-top: solid 1px #c5a048; height: 20px; width: 100%;"></div>
+        </div>
 
         <!-- /END THE FEATURETTES -->
       </div>
@@ -426,14 +435,14 @@
 
     </div>
 
-<div class="row" style="padding-top:15px ;">
-    <div class="col-sm-12" style="background-color: #c5a048;color: black;text-align: center; padding: 10px; ">
-      <p dir="rtl" style="padding: 0;margin: 0;">
-        تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
-        باشد.
-      </p>
+    <div class="row" style="padding-top:15px ;">
+      <div class="col-sm-12" style="background-color: #c5a048;color: black;text-align: center; padding: 10px; ">
+        <p dir="rtl" style="padding: 0;margin: 0;">
+          تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
+          باشد.
+        </p>
+      </div>
     </div>
-</div>
 
 
     <!-- end signature basirat -->
