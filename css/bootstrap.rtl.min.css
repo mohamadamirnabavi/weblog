@@ -46,16 +46,16 @@
 }
 @font-face {
     font-family: yekan;
-    src: url('Yekan.eot');
-    src: url('Yekan.svg') format('svg'),
-        url('Yekan.woff') format('woff'),
-        url('Yekan.ttf') format('truetype');
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.svg') format('svg'),
+        url('../fonts/Yekan.woff') format('woff'),
+        url('../fonts/Yekan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 body {
     margin: 0;
-    font-family: var(--bs-font-sans-serif);
+    font-family: "yekan";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -257,6 +257,14 @@ a {
     text-decoration: none
 }
 
+.carousel-caption-zulfiqar{
+    color: #fff;
+}
+
+.carousel-caption-zulfiqar:hover,
+.carousel-caption-zulfiqar:focus{
+    color: #c5a048;
+}
 .gold:hover {
     color: #c5a048
 }
@@ -274,7 +282,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: var(--bs-font-monospace);
+    font-family: "yekan";
     font-size: 1em;
     direction: ltr;
     unicode-bidi: bidi-override
@@ -375,7 +383,7 @@ optgroup,
 select,
 textarea {
     margin: 0;
-    font-family: inherit;
+    font-family: "yekan";
     font-size: inherit;
     line-height: inherit
 }
@@ -6332,7 +6340,7 @@ fieldset:disabled .btn {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: var(--bs-font-sans-serif);
+    font-family: "yekan";
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -8158,7 +8166,7 @@ fieldset:disabled .btn {
 }
 
 .font-monospace {
-    font-family: var(--bs-font-monospace) !important
+    font-family:"yekan" !important
 }
 
 .user-select-all {
