@@ -15,22 +15,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
     </style>
 
 
@@ -38,393 +26,406 @@
     <link href="css/carousel.rtl.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark row container-fluid">
-    <header>
+<body class="bg-dark" style="padding-bottom: 0;padding-top:0">
+
+
+    <header style="padding-bottom: 0;">
+
         <div class="row">
-            <div class="row" style="background-color: #141414;">
-                <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: right; height: 15vh; padding-right: 5vw;">
-                    <img alt="Logo" src="assets/img/logo.png" style="height: 15vh; width: auto;">
-                </div>
-
-                <!-- social network -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <!-- end social media -->
-
+            <div class="col-sm-12 col-md12" dir="ltr">
+                <ul>
+                    <li class="nav-link">
+                        <span style="color: rgb(185, 185, 185);">دوشنبه ۱۳ بهمن ۱۳۹۹</span>
+                    </li>
+                </ul>
             </div>
-
-
-
-            <div class="row" style="background-color: #141414;">
-                <div class="col-sm-12" style="
-            border-top: solid 2px #c5a048;
-            height: 15px;
-            background-repeat: repeat-x;
-          "></div>
+            <div class="row">
+                <div class="col-12" style="border-top: solid 1px #464646; height: 10px; width: 100%;"></div>
             </div>
         </div>
+
+        <div class="row">
+
+            <div class="col-md-8 col-sm-12" style="text-align: right; height: 20vh; padding-right: 5vw;">
+                <img alt="Logo" src="assets/img/logo.png" style="height: 20vh; width: auto;">
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+                <div class="row">
+
+                    <div id="wrap">
+                        <form action="" autocomplete="on">
+                            <input id="search" class="input-search" name="search" type="text"
+                                placeholder="عبارت مورد نظر را وارد کنید."><input id="search_submit"
+                                class="input-submit" value="Rechercher" type="submit">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="background-color: #141414;">
+            <div class="col-12" style="border-top: solid 1px #c5a048; height: 15px; width: 100%;"></div>
+        </div>
+
 
 
     </header>
 
-    <main>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">خانه</a>
-                        </li>
+    <div class="row" style="padding-top: 0;">
+        <div class="col-md-9 col-sm-12">
 
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                نامزدها
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">جایزه صلح</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">جایزه ادبیات</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">جایزه سینما</a></li>
-                            </ul>
-                        </li>
+            <!-- navbar -->
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <div class="container-fluid">
 
-                        <li class="nav-item">
-                            <a class="nav-link active" href="multimedia.html">چندرسانه ای</a>
-                        </li>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                حاج قاسم سلیمانی
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">زندگی نامه</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">وصیت نامه</a></li>
-                            </ul>
-                        </li>
+                    <div class="navbar-collapse collapse" id="navbarsExample01">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">خانه</a>
+                            </li>
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    جوایز
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">جایزه صلح</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">جایزه ادبیات</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">جایزه سینما</a></li>
+                                </ul>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"> درباره ذوالفقار </a>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    رویدادها
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">افتتاحیه</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">اختتامیه</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="">ویژه نامه</a></li>
+                                </ul>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">تماس با ما</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="multimedia.html">نگارخانه</a>
+                            </li>
+
+                            <li class="nav-item nav-link">
+                                دارالفنون
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">تماس با ما</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- endnavbar -->
+
+        </div>
+
+        <div class="col-md-3 col-sm-12 ">
+            <!-- multi language  -->
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg" dir="ltr"">
+        <ul class=" navbar-nav">
+                    <li class="nav-item dropdown"> <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/img/lang.png" width="35px"
+                                height="auto" alt=""> </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start"
+                            aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">فارسی</a></li>
+                            <li> </li>
+                            <li><a class="dropdown-item" href="#">العربیه</a></li>
+                            <li> </li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </li>
                     </ul>
 
+                </nav>
+            </div>
+            <!-- end multi language  -->
+        </div>
+
+
+    </div>
+    <div style="padding-bottom: 0;">
+        <div style="border-top: solid 1px #c5a048; height: 15px; width: 100%;
+          ">
+        </div>
+    </div>
 
 
 
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="جستجو" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-search" viewBox="0 0 16 16">
-                                <path
-                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                            </svg></button>
-                    </form>
+    <main>
+        <!-- carousel slider -->
+        <div class="row">
+
+            <div class="carousel-inner col-12">
+
+                <div class="carousel-item active">
+                    <img src="assets/img/head-pic.png" width="100%" height="100%" alt="">
+
+                    <div class="carousel-caption text-start" style="padding-top: unset; padding-bottom: 0;">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <a href="blog.html">
+                                    <h3
+                                        style="color: #fff; background: rgba(0, 0, 0, 0.6); padding:10px 30px; padding-top: unset;">
+                                        همه
+                                        چیز درباره جشنواره
+                                        ذوالفقار </h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-
-
-
             </div>
-        </nav>
-        <!-- endnavbar -->
 
-        
+        </div>
+        <!-- end carousel -->
+
 
 
         <!-- content -->
-      
-<section class="py-5 text-center container">
-    <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Album example</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
-                etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
-        </div>
-    </div>
-</section>
 
-<div class="album py-5 bg-light">
-    <div class="container">
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+        <div class="py-5" style="background-color: #f4f4f2;">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm ">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-end align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-end align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-end align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <small class="text-muted">۹ ماه قبل</small>
+                                </div>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                    dy=".3em">Thumbnail</text>
+                            </svg>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            <div class="card-body">
+                                <p class="card-text">تصاویر رونمایی از پوستر اولین سال جشنواره ذ.والفقار در سال ۱۳۹۹ در
+                                    اهواز با
+                                    حضورجمعی از فرهیختگان. نماینده ولی فقیه استاندار و...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                </div>
+                                <small class="text-muted">۹ ماه قبل</small>
                             </div>
-                            <small class="text-muted">9 mins</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-
-        <!-- end content -->
-
-
-
-        <!-- signature basirat -->
-
-        <div class=" ">
-            <div class="">
-                <div class="col-sm-12" style="
-            background-color: #c5a048;
-            font-family: byekan;
-            color: black;
-            text-align: center;
-            padding: 10px;
-           
-          ">
-                    <p dir="rtl">
-                        تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
-                        باشد.
-                    </p>
-                </div>
-            </div>
         </div>
-
-        <!-- end signature basirat -->
-
 
     </main>
+    <!-- end content -->
 
-    <!-- <footer class="modal-footer"> -->
-    <!--  -->
+
 
     <!-- Site footer -->
     <footer class="site-footer">
@@ -456,10 +457,11 @@
                         <li><a href="#">تماس با ما</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-12 col-md-6 ">
+                <div class="col-sm-12 col-md-3">
                     <h6>نشانی</h6>
                     <p class="text-justify"> جمهوری اسلامی ایران - خوزستان - اهواز - کوی انقلاب، خیابان لشکر، روبروی
-                        بانک ملی،
+                        بانک
+                        ملی،
                         موسسه طلوع نور بصیرت <br>
                         <a href="06115544332">تلفن: ۰۶۱۱۵۵۴۴۳۳۲</a> <br>
                         <a href="09130810120">تلفن همراه: ۰۹۱۳۰۸۱۰۱۲۰</a> <br>
@@ -468,11 +470,47 @@
                             info@zulfiqarfestival.ir
                         </a>
                 </div>
+
+                <!-- social network -->
+                <div class="col-sm-12 col-md-3 ">
+                    <h6>ذوالفقار در شبکه های اجتماعی</h6>
+
+                    <div class="row" style="padding-top: 35px;">
+                        <div class="col-12 align-content-center">
+                            <ul class="social-icons">
+                                <li><a class="twitter" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- end social media -->
+
+                </div>
             </div>
-            <hr>
+
         </div>
+
+        <div class="row" style="padding-top:15px ;">
+            <div class="col-sm-12" style="background-color: #c5a048;color: black;text-align: center; padding: 10px; ">
+                <p dir="rtl" style="padding: 0;margin: 0;">
+                    تمامی حقوق مادی و معنوی این وب سایت متعلق به موسسه طلوع نور بصیرت می
+                    باشد.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- end signature basirat -->
+
+
     </footer> <!--  -->
     <!-- </footer> -->
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
