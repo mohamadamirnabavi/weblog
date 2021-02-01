@@ -237,3 +237,161 @@
     opacity: 0.8;
 }
 /* end search */
+
+
+/* share */
+
+.social-icons-share {
+    /* padding-left: 0; */
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons-share li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons-share li.title {
+    /* margin-right: 15px; */
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons-share a {
+    background-color: #fff;
+    color: #252525;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    /* margin-right: 8px; */
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons-share a:active,
+.social-icons-share a:focus,
+.social-icons-share a:hover {
+    color: #fff;
+    background-color: #c5a048
+}
+
+.social-icons-share.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons-share a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons-share a.twitter:hover {
+    background-color: #c5a048
+}
+
+.social-icons-share a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons-share a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons-share li.title {
+        display: block;
+        /* margin-right: 0; */
+        font-weight: 600
+    }
+}
+
+/* end share */
+
+
+
+/* carousel for blog */
+
+.product-slider {
+    padding: 45px;
+}
+
+.product-slider #carousel {
+    border: 4px solid #1089c0;
+    margin: 0;
+}
+
+.product-slider #thumbcarousel {
+    margin: 12px 0 0;
+    padding: 0 45px;
+}
+
+.product-slider #thumbcarousel .item {
+    text-align: center;
+}
+
+.product-slider #thumbcarousel .item .thumb {
+    border: 4px solid #cecece;
+    width: 20%;
+    margin: 0 2%;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    max-width: 98px;
+}
+
+.product-slider #thumbcarousel .item .thumb:hover {
+    border-color: #1089c0;
+}
+
+.product-slider .item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control {
+    color: #0284b8;
+    text-align: center;
+    text-shadow: none;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    top: 23%;
+}
+
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-control:active {
+    color: #333;
+}
+
+.carousel-caption,
+.carousel-control .fa {
+    font: normal normal normal 30px/26px FontAwesome;
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: auto;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    width: auto;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+}
+/* end carousel for blog  */
