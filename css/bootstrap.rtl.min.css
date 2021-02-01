@@ -44,7 +44,15 @@
         scroll-behavior: smooth
     }
 }
-
+@font-face {
+    font-family: yekan;
+    src: url('Yekan.eot');
+    src: url('Yekan.svg') format('svg'),
+        url('Yekan.woff') format('woff'),
+        url('Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
     font-family: var(--bs-font-sans-serif);
@@ -73,7 +81,7 @@ hr:not([size]) {
     height: 1px
 }
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 .h4,
@@ -89,7 +97,7 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2
-}
+} */
 
 .h1,
 h1 {
@@ -630,7 +638,7 @@ progress {
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
-    border: 1px solid #dee2e6;
+    border: 5px solid #fff;
     border-radius: .25rem;
     max-width: 100%;
     height: auto
