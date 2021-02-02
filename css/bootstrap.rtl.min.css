@@ -2234,7 +2234,8 @@ progress {
 }
 
 .form-label {
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    
 }
 
 .col-form-label {
@@ -2270,10 +2271,10 @@ progress {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff;
-    background-color: #141414;
+    color: #141414;
+    background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #f08521;
+    border: 1px solid #c5a048;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -2296,11 +2297,11 @@ progress {
 }
 
 .form-control:focus {
-    color: #fff;
-    background-color: #141414;
-    border-color: #f08521;
+    color: #141414;
+    background-color: #fff;
+    border-color: #c5a048;
     outline: 0;
-    box-shadow: 0 0 0 .10rem #c5a048
+    box-shadow: 0 0 0 1px #c5a048
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -3238,22 +3239,23 @@ fieldset:disabled .btn {
 
 .btn-success {
     color: #fff;
-    background-color: #198754;
-    border-color: #198754
+    background-color: #c5a048;
+    border-color: #c5a048
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #157347;
-    border-color: #146c43
+    background-color: #c5a048;
+    border-color: #c5a048;
+    border: 2px solid #c5a048;
 }
 
 .btn-check:focus+.btn-success,
 .btn-success:focus {
     color: #fff;
-    background-color: #157347;
-    border-color: #146c43;
-    box-shadow: 0 0 0 .25rem rgba(60, 153, 110, .5)
+    background-color: #c5a048;
+    border-color: #c5a048;
+    box-shadow: 0 0 0 .25rem #c5a048
 }
 
 .btn-check:active+.btn-success,
@@ -3262,8 +3264,8 @@ fieldset:disabled .btn {
 .btn-success:active,
 .show>.btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #146c43;
-    border-color: #13653f
+    background-color: #c5a048;
+    border-color: #c5a048
 }
 
 .btn-check:active+.btn-success:focus,
@@ -3271,7 +3273,7 @@ fieldset:disabled .btn {
 .btn-success.active:focus,
 .btn-success:active:focus,
 .show>.btn-success.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(60, 153, 110, .5)
+    box-shadow: 0 0 0 .25rem #c5a048
 }
 
 .btn-success.disabled,
