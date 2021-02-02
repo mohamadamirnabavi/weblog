@@ -21,7 +21,7 @@
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
-    letter-spacing: 2px
+   
 }
 
 .site-footer a {
@@ -99,7 +99,8 @@
 .social-icons {
     /* padding-left: 0; */
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    padding-right: 0%;
 }
 
 .social-icons li {
